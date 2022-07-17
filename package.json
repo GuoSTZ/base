@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsc --watch",
-    "build": "npm run clean:win && tsc",
+    "build": "npm run clean && tsc",
     "clean": "rm -rf dist",
     "clean:win": "rmdir /s /q dist",
     "lint": "eslint src __tests__ --ext .js,.ts --cache --fix",
