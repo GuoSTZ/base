@@ -1,0 +1,32 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "npm run clean:win && tsc",
+    "clean": "rm -rf dist",
+    "clean:win": "rmdir /s /q dist"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuoSTZ/base.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuoSTZ/base/issues"
+  },
+  "homepage": "https://github.com/GuoSTZ/base#readme",
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "typescript": "^4.7.4"
+  }
+}
