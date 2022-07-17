@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/GuoSTZ/base/compare/v1.0.0...v1.1.0) (2022-07-17)
+
+
+### Features
+
+* update package.json ([918399b](https://github.com/GuoSTZ/base/commit/918399b85fb94a9fd10598959dba66cce27f65a2))
+
 # 1.0.0 (2022-07-17)
 
 
